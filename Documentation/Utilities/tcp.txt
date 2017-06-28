@@ -1,0 +1,37 @@
+Sockets are a bit like a handler to a file(it's a resource managed by the system, so it's important to properly close it)
+If a server expects incoming connections, first it creates a listener socket(in C# there's TCPListener class which requires ip address + port) and listens in a loop.
+When a client connects to a server, the listener socket creates a connection socket(in C# it's simply Socket or NetworkStream, people rather use Socket)
+Server has only one listener socket for all clients and one connection socket for each client.
+Client uses only one connection socket (there's no listener socket).
+
+Connection sockets are normally initialized with 1024 byte buffer from which data is read in a loop until the buffer is empty.
+In our project, each message should be finished with a special sign(code 23 in ASCII?), so we know when to finish reading.
+Sockets are duplex, so you can write to them and read at the same time (there's no need for synchronisation as far as I know).
+
+We will probably use asynchronous sockets, so the communication will be a bit faster.
+In C# we need to write a callback for start of reading, end of reading, start of writing(not sure about this one) etc.
+
+Additionally, we need to implement a keep-alive mechanism.
+Keep alive works in such a way that a message is sent through the socket every x seconds, so the client/server know
+that other side did disconnect or not.
+There's a keep-alive already implemented in C# but it sends an empty message, while we have to send
+a message with special sign(code 23). As far as I know there's no way to change the sent message in C#.
+
+On gitlab, someone made an issue concerning the keep-alive stuff, so maybe it'll be changed by Okulewicz.
+So it may be a good idea to wait with implementing it until we get the final specification.
+
+We could eventually use a queue to store incoming messages on player/gamemaster like we planned last semester.
+Task division:
+socket accepting  multiple connections on communicationserver + simple connecting from player and gamemaster
+socket send/write on communicationserver
+socket send/write on player
+socket send/write on gamemaster
+implement proper error handling on sockets
+implement keep-alive
+
+
+links
+https://www.codeproject.com/articles/117557/set-keep-alive-values
+https://msdn.microsoft.com/en-us/library/bew39x2a(v=vs.110).aspx
+https://msdn.microsoft.com/en-us/library/fx6588te(v=vs.110).aspx
+http://codereview.stackexchange.com/questions/19850/c-async-socket-server-with-events

@@ -1,0 +1,13 @@
+As for today keep alive message works as:
+
+We send the designated message from the client to server.
+
+Server check the arbitrarly set message length (which coincides only with the keep alive message -> char.toString((char)23) which is equal to 6 characters.
+
+if the message is within the set length we treat it as if it was the keepalive message.
+what means. Each time we receive the such message we reset the _timer which if not reset after 5 seconds will disconnect the receiver, therfore the client which didn't send the keepalive message back.
+
+As for now we have this implemented only on communication server
+we intend to update Client and GameMaster in near future (most likely before deadline <3)
+
+Please let us know about your thoughts.

@@ -1,0 +1,15 @@
+﻿Code reviewer: Mateusz Szperna
+Pairs:
+Mikolaj Slon & Aleksander Kusmierczyk (AM)
+Alex Zhavrid & Kornel Zaba (AK)
+
+TO DO
+Messages handling (AK) -> Tuesday 12-15
+Keep alive messages -> (AM) Wednesday 11-13
+Keep alive messages, input arguments -> (AM) Thursday 16:30-19
+Messages handling -> (AK) Thursday 14-20
+
+
+Notes&Questions:
+We encountered a bug which with disconnection of 1 of 2 players will disconnect all of them. (FIXED)
+Additional note we added the "spam" message which lists all of the keep alive messages with the Guid of the sender so the console might be a little crowded. 

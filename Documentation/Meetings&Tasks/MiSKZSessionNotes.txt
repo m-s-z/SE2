@@ -1,0 +1,2 @@
+The communication server should only return games that were not started yet
+The server should be able to handle if the player wants to be leader or a member

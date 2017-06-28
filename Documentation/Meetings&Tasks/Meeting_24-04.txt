@@ -1,0 +1,16 @@
+Code reviewer: Kornel Zaba
+Pairs:
+Mikolaj Slon & Mateusz Szperna  (MM)
+Alexei Zhavrid & Aleksander Kusmierczyk (AA)
+
+
+TO DO
+Fix the last merge on master(there may be a problem in the Game message that crashes everything) :
+Write an integration test starting gm, cs and players on a small board
+(we will use this test later to check if something went wrong after refactoring) :
+
+Move handling of messages(that is inside message classes) to GameMaster, write tests for it :
+Break down Player logic into smaller functions and write tests for it :
+Bother other teams about integration (just creating and joining game for now, no logic)
+
+Notes&Questions:

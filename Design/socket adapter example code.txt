@@ -1,0 +1,17 @@
+class TcpClientAdapter
+{
+    private TcpClient _client;
+
+    public NetworkStream GetStream()
+    {
+        return _client.GetStream();
+    }
+}
+
+class TcpClientMock
+{
+    public NetworkStream GetStream()
+    {
+        return null;
+    }
+}

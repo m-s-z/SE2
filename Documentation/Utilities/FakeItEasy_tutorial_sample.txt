@@ -1,0 +1,4 @@
+http://ondevelopment.blogspot.com/2010/05/fakeiteasy-login-service-example-series.html?m=1
+
+
+We use FakeItEasy to fake objects for Unit Tests. Above is the link to the simple tutorial and some examples.

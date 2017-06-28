@@ -1,0 +1,42 @@
+Generally read and try to follow this:
+http://www.dofactory.com/reference/csharp-coding-standards
+
+Also:
+Name private fields like this: private int _someNumber;
+Avoid public fields, use properties instead.
+
+Try to code against interfaces, so do this:
+class Foo : IFoo
+{
+    private IBar _bar;
+    public Foo(IBar bar)()
+    {
+	_bar = bar;
+    }    
+}
+and not this:
+class Foo
+{
+    private Bar _bar;
+    public Foo(Bar bar)
+    {
+        _bar = bar;
+    }
+}
+It will make writing unit tests and adding new features easier.
+
+Remember to write unit tests and test only one class at the time(if a class
+uses any other class, then make a mock version of it with no logic inside).
+
+If you make an async method, then make sure it returns Task or Task<T>(just not void).
+
+You don't have to make comments everywhere, just write above the class how it works
+or in case some method is complicated, write some comments at most important steps.
+
+If you need a class that is serializable and it needs also a constructor, then
+instead of constructor write some public Factory method to build the instance of the class.
+
+If you need to scroll longer than 5 seconds through a class,
+then it may be a good idea to divide it into smaller parts (it will help you debug faster).
+
+If you need sorting/searching kind of method, then try to use LINQ

@@ -1,0 +1,16 @@
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\Messages.Test.dll
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\Messages.Test.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\CommunicationServer.exe
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\FakeItEasy.dll
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\GameMaster.exe
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\Messages.dll
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\Player.exe
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\CommunicationServer.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\GameMaster.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\Player.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\Messages.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\FakeItEasy.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\bin\Debug\FakeItEasy.xml
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\obj\Debug\Messages.Test.csprojResolveAssemblyReference.cache
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\obj\Debug\Messages.Test.dll
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Messages\Messages\Messages.Test\obj\Debug\Messages.Test.pdb

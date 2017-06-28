@@ -1,0 +1,17 @@
+this is just a reminder how to set up the arguments 
+
+right click on (game master or player) select properties. go to debug section and there is a textbox for entry arguments.
+The arguments are taken as string and are separated with space so our set up first enter the programs name 
+(this is the set up which should work from the console so the first argument will be the name) then the ip address and port.
+
+
+Console commands with parameters:
+
+Comunication Server:
+17-EN-04-cs --port 8000 --conf "../../CommunicationServerSettingsTest"
+
+Game Master:
+17-EN-04-cs --address 192.168.0.14 --port 8000 --conf "../../GameMasterSettingsTest.xml"
+
+Player:
+17-EN-04-cs --address 192.168.0.14 --port 8000 --conf "../../PlayerSettingsTest.xml" --game "Initial test game" --team "red" --role "member"

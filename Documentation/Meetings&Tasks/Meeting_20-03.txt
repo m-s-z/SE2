@@ -1,0 +1,16 @@
+Code reviewer: Aleksander Kuœmierczyk
+Pairs:
+Kornel Zaba & Mateusz Szperna (KM)
+Alex Zhavrid & Mikolaj Slon (AM)
+
+TO DO
+test system on local network ->  KM 11-12 Tuesday
+socket send/write on player (with proper messages) -> KM Thursday
+socket send/write on gamemaster (with proper messages)
+fix unit-tests
+finish proper error handling on sockets
+implement keep-alive
+
+
+Notes&Questions:
+Should we create a separate receiver for gamemaster? current solution makes the code really crowded.

@@ -1,0 +1,16 @@
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\Project.Integration.dll
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\Project.Integration.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\CommunicationServer.exe
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\GameMaster.exe
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\Messages.dll
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\Player.exe
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\CommunicationServer.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\GameMaster.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\Messages.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\Player.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\obj\Debug\Project.Integration.csprojResolveAssemblyReference.cache
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\obj\Debug\Project.Integration.dll
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\obj\Debug\Project.Integration.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\FakeItEasy.dll
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\FakeItEasy.pdb
+C:\Users\MSZ_PC\Documents\SE\17-en-04\Source\Project\Project.Integration\Project.Integration\bin\Debug\FakeItEasy.xml

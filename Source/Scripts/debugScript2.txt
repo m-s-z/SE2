@@ -1,0 +1,1 @@
+start "Player" ".\Player\Player\Player\bin\Debug\Player.exe" "17-EN-04-cs" "--address" "192.168.56.1" "--port" "8000" "--conf" ".\Player\Player\Player\PlayerSettingsTest.xml" "--game" "Initial test game" "--team" "red" "--role" "member"

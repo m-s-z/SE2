@@ -1,0 +1,19 @@
+﻿Code reviewer: Alex Zhavrid
+Pairs:
+Mikolaj Slon & Kornel Zaba  (MK)
+Mateusz Szperna & Aleksander Kusmierczyk (MA)
+
+
+TO DO
+Proper interpretation of messages
+Passing IP and port as a parameters DONE (MA 06.04)
+
+
+Task for 2nd stage:
+Players correctly play the game(proper message handling logic)
+The basics of the logic of the game - Creating Board, Calculating Manhattan Distance (MA 06.04 under construction);
+Communication server is able to host multiple games
+Configuration of communication server's, player's and gamemaster's properties(keep alive frequency, max num of players and etc.) in xml.
+
+
+Notes&Questions:

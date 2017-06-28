@@ -1,0 +1,8 @@
+Script representing the standart gameplay.
+
+The way to reach GOAL (not the most efficient)
+GOAL) 		To end the game we need all the goal tiles filled with the pieces which are not sham.
+
+1) each player has starting position which has to be sent by game master. (assigned)
+
+2) does player knows his position at the beginnign of the game? (A - yes , M - nope)

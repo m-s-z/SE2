@@ -1,0 +1,19 @@
+Code reviewer: Kornel Zaba
+Pairs:
+Mikolaj Slon & Mateusz Szperna (MM)
+Alex Zhavrid &  Aleksander Kusmierczyk (AA)
+
+TO DO
+Initial Setup, Creating projects -> (MM) Tomorrow 11-13 
+Converting XML's int c# classes -> (MM)	Wednesday 9-11 
+tcp ip -> agents and game master -> (AA) Thursday 14-18 
+Communication sockets on server site
+errors as seperate tasks next week
+tcp ip dividing into smaller tasks -> Kornel & (AA) Thursday 14-18 
+code practices tutorials -> Kornel
+socket accepting  multiple connections on communicationserver + simple connecting from player and gamemaster -> (AA) Thursday 14-18
+socket send/write on communicationserver -> (AA) DONE
+socket send/write on player
+socket send/write on gamemaster
+implement proper error handling on sockets
+implement keep-alive
